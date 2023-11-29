@@ -16,7 +16,7 @@ function App() {
         parseArray:true,
       })
       setTsValue(result)
-    } catch (e) {
+    } catch (e :any) {
       message.error(e?.message || "解析出错");
     }
   };
@@ -55,7 +55,7 @@ function App() {
               defaultLanguage="json"
               defaultValue=""
               value={jsonValue}
-              onChange={(value) => setJsonValue(value)}
+              onChange={(value:any) => setJsonValue(value)}
             />
           </div>
         </Col>
@@ -83,7 +83,7 @@ function App() {
               defaultLanguage="json"
               defaultValue=""
               value={tsValue}
-              onChange={(value) => setTsValue(value)}
+              onChange={(value:any) => setTsValue(value)}
             />
           </div>
         </Col>
