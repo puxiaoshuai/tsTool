@@ -1,0 +1,24 @@
+#root {
+   min-width: 800px;
+}
+.js_wrapper{
+   /* margin: 10px; */
+}
+.js_wrapper .header {
+   height: 50px;
+   background-color: #03A9F4;
+}
+.ts_wrapper{
+   /* margin: 10px; */
+   margin-left: 1px;
+   border-left: 1px solid rgb(233, 233, 233);
+}
+.ts_wrapper .header {
+   height: 50px;
+   background-color: #03A9F4;
+}
+.editor {
+   height: calc(90vh - 40px);
+   width: 50w;
+}
+
